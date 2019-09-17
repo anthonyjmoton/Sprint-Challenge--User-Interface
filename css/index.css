@@ -66,6 +66,43 @@ p {
     line-height: 1.4;
 }
 
+header{
+    width: 800px;
+    margin: 30px auto;
+    /* border: 1px solid blue; */
+}
+
+nav.navi {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    /* margin-bottom: 3px; */
+}
+
+div.logo {
+    /* border: 1px solid black; */
+    /* margin-top: 10px; */
+    /* padding-bottom: 10px; */
+    /* margin: 5px 0; */
+    text-align: left;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+}
+
+section.image {
+    /* border: 1px solid orange; */
+    width: 800px;
+    margin: 15px auto;
+}
+
+.large-pic img {
+    /* border: 1px solid red; */
+    margin: 0 auto;
+}
+
 .container {
     width: 800px;
     margin: 0 auto;
@@ -104,12 +141,51 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.one {
+    background-color: teal;
+}
+
+.two {
+    background-color: gold;
+}
+
+.three {
+    background-color: cadetblue;
+}
+
+.four {
+    background-color: coral;
+}
+
+.five {
+    background-color: crimson;
+}
+
+.six {
+    background-color: forestgreen;
+}
+
+.seven {
+    background-color: darkorchid;
+}
+
+.eight {
+    background-color: hotpink;
+}
+
+.nine {
+    background-color: indigo;
+}
+
+.ten {
+    background-color: dodgerblue;
 }
 
 .bottom-content {
@@ -143,4 +219,93 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+
+/* STARTING THE ABOUT PAGE! */
+
+.main-content {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+
+
+div.skyline {
+    margin-bottom: 30px;
+}
+
+div.intro {
+    margin-left: 15px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    border-bottom: 1px dashed black;
+}
+
+div.intro p {
+    margin-bottom: 20px;
+}
+
+/* TOP SECTION - STRATEGY & HOW WE WORK */
+
+section.top-two, section.last-section {
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-evenly;
+    /* flex-direction: column; */
+    /* width: 10%; */
+}
+
+/* .last-section {
+    margin-bottom: 30px;
+} */
+
+div.first-box {
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+    border-bottom: 1px dashed black;
+    
+}
+
+img.top-img {
+    /* margin-bottom: 15px; */
+}
+
+.images {
+    margin-bottom: 15px;
+}
+
+button {
+    margin: 15px 0;
+}
+
+.outro {
+    margin:30px 15px;
+}
+
+/* BUTTON STYLING */
+
+button {
+    padding: 15px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    -webkit-border-radius: 19px;
+    -moz-border-radius: 19px;
+    border-radius: 19px;
+}
+
+/* image effects */
+
+img:hover {
+    -moz-box-shadow: 0 0 10px #ccc;
+    -webkit-box-shadow: 0 0 10px #ccc;
+    box-shadow: 0 0 10px #ccc;
+}
+
+/* H1 & Paragraph hover effects */
+
+p:hover {
+    background-color: gray;
 }
